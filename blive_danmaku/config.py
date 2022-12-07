@@ -5,12 +5,11 @@ from mcdreforged.api.utils import Serializable
 
 
 class RoomConfig(Serializable):
-    id: int = 1233654  # 房间id
+    id: int = 25888917  # 房间id
     listener: List[str] = [
-        "DANMU_MSG", "COMBO_SEND", "GUARD_BUY", "SUPER_CHAT_MESSAGE",
-        "PREPARING", "LIVE", "INTERACT_WORD", "VERIFICATION_SUCCESSFUL"
+        "DANMU_MSG"
     ]
-    nickname: str = 'FAS'
+    nickname: str = 'SAT'
     is_login: bool = False
     csrf: str = ''
     sessdata: str = ''
